@@ -1,0 +1,362 @@
+/*
+    Theme name: Jega Tienda Virtual
+    Theme URI:
+    Description: Tema para la tienda virtual
+    Author: Jaime Gomez
+    Template: storefront
+    Version: 1.0
+    License: GNU
+    Tags: woocommerce, spa, responsive
+*/
+
+.main-navigation ul li a,
+.site-title a,
+ul.menu li a,
+.site-branding h1 a,
+.site-footer .storefront-handheld-footer-bar a:not(.button),
+button.menu-toggle,
+button.menu-toggle:hover,
+.handheld-navigation .dropdown-toggle {
+    color: #ffffff;
+}
+
+button.menu-toggle,
+button.menu-toggle:hover {
+    border-color: #ffffff;
+}
+
+.main-navigation ul li a:hover,
+.main-navigation ul li:hover > a,
+.site-title a:hover,
+a.cart-contents:hover,
+.site-header-cart .widget_shopping_cart a:hover,
+.site-header-cart:hover > li > a,
+.site-header ul.menu li.current-menu-item > a {
+    color: #ffffff;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tbody td {
+    background-color: #f7f7f7;
+}
+
+table tbody tr:nth-child(2n) td,
+fieldset,
+fieldset legend {
+    background-color: #f5f5f5;
+}
+
+.site-header,
+.secondary-navigation ul ul,
+.main-navigation ul.menu > li.menu-item-has-children:after,
+.secondary-navigation ul.menu ul,
+.storefront-handheld-footer-bar,
+.storefront-handheld-footer-bar ul li > a,
+.storefront-handheld-footer-bar ul li.search .site-search,
+button.menu-toggle,
+button.menu-toggle:hover {
+    background-color: #e182a8;
+}
+
+p.site-description,
+.site-header,
+.storefront-handheld-footer-bar {
+    color: #ffffff;
+}
+
+.storefront-handheld-footer-bar ul li.cart .count,
+button.menu-toggle:after,
+button.menu-toggle:before,
+button.menu-toggle span:before {
+    background-color: #ffffff;
+}
+
+.storefront-handheld-footer-bar ul li.cart .count {
+    color: #e182a8;
+}
+
+.storefront-handheld-footer-bar ul li.cart .count {
+    border-color: #e182a8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #e182a8;
+}
+
+.widget h1 {
+    border-bottom-color: #e182a8;
+}
+
+body,
+.secondary-navigation a,
+.onsale,
+.pagination .page-numbers li .page-numbers:not(.current), .woocommerce-pagination .page-numbers li .page-numbers:not(.current) {
+    color: #6d6d6d;
+}
+
+.widget-area .widget a,
+.hentry .entry-header .posted-on a,
+.hentry .entry-header .byline a {
+    color: #727272;
+}
+
+a  {
+    color: #e182a8;
+}
+
+a:focus,
+.button:focus,
+.button.alt:focus,
+.button.added_to_cart:focus,
+.button.wc-forward:focus,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+    outline-color: #e182a8;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"], .button, .added_to_cart, .widget a.button, .site-header-cart .widget_shopping_cart a.button {
+    background-color: #e182a8;
+    border-color: #e182a8;
+    color: #ffffff;
+}
+
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover, .added_to_cart:hover, .widget a.button:hover, .site-header-cart .widget_shopping_cart a.button:hover {
+    background-color: #c8698f;
+    border-color: #c8698f;
+    color: #ffffff;
+}
+
+button.alt, input[type="button"].alt, input[type="reset"].alt, input[type="submit"].alt, .button.alt, .added_to_cart.alt, .widget-area .widget a.button.alt, .added_to_cart, .widget a.button.checkout {
+    background-color: #333333;
+    border-color: #333333;
+    color: #ffffff;
+}
+
+button.alt:hover, input[type="button"].alt:hover, input[type="reset"].alt:hover, input[type="submit"].alt:hover, .button.alt:hover, .added_to_cart.alt:hover, .widget-area .widget a.button.alt:hover, .added_to_cart:hover, .widget a.button.checkout:hover {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.pagination .page-numbers li .page-numbers.current, .woocommerce-pagination .page-numbers li .page-numbers.current {
+    background-color: #e0e0e0;
+    color: #636363;
+}
+
+#comments .comment-list .comment-content .comment-text {
+    background-color: #f2f2f2;
+}
+
+.site-footer {
+    background-color: #0a0507;
+    color: #ffffff;
+}
+
+.site-footer a:not(.button) {
+    color: #e182a8;
+}
+
+.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6 {
+    color: #333333;
+}
+
+.page-template-template-homepage.has-post-thumbnail .type-page.has-post-thumbnail .entry-title {
+    color: #000000;
+}
+
+.page-template-template-homepage.has-post-thumbnail .type-page.has-post-thumbnail .entry-content {
+    color: #000000;
+}
+
+#order_review {
+    background-color: #f9f9f9;
+}
+
+#payment .payment_methods > li .payment_box,
+#payment .place-order {
+    background-color: #f4f4f4;
+}
+
+#payment .payment_methods > li:not(.woocommerce-notice) {
+    background-color: #efefef;
+}
+
+#payment .payment_methods > li:not(.woocommerce-notice):hover {
+    background-color: #eaeaea;
+}
+
+@media screen and ( min-width: 768px ) {
+    .secondary-navigation ul.menu a:hover {
+        color: #ffffff;
+    }
+
+    .secondary-navigation ul.menu a {
+        color: #ffffff;
+    }
+
+    .site-header-cart .widget_shopping_cart,
+    .main-navigation ul.menu ul.sub-menu,
+    .main-navigation ul.nav-menu ul.children {
+        background-color: #d27399;
+    }
+
+    .site-header-cart .widget_shopping_cart .buttons,
+    .site-header-cart .widget_shopping_cart .total {
+        background-color: #d7789e;
+    }
+
+    .site-header {
+        border-bottom-color: #d27399;
+    }
+}.storefront-product-pagination a {
+        color: #6d6d6d;
+        background-color: #f9f9f9;
+    }
+    .storefront-sticky-add-to-cart {
+        color: #6d6d6d;
+        background-color: #f9f9f9;
+    }
+
+    .storefront-sticky-add-to-cart a:not(.button) {
+        color: #ffffff;
+    }
+
+
+
+
+a.cart-contents,
+.site-header-cart .widget_shopping_cart a {
+    color: #ffffff;
+}
+
+table.cart td.product-remove,
+table.cart td.actions {
+    border-top-color: #f9f9f9;
+}
+
+.woocommerce-tabs ul.tabs li.active a,
+ul.products li.product .price,
+.onsale,
+.widget_search form:before,
+.widget_product_search form:before {
+    color: #6d6d6d;
+}
+
+.woocommerce-breadcrumb a,
+a.woocommerce-review-link,
+.product_meta a {
+    color: #727272;
+}
+
+.onsale {
+    border-color: #6d6d6d;
+}
+
+.star-rating span:before,
+.quantity .plus, .quantity .minus,
+p.stars a:hover:after,
+p.stars a:after,
+.star-rating span:before,
+#payment .payment_methods li input[type=radio]:first-child:checked+label:before {
+    color: #e182a8;
+}
+
+.widget_price_filter .ui-slider .ui-slider-range,
+.widget_price_filter .ui-slider .ui-slider-handle {
+    background-color: #e182a8;
+}
+
+.order_details {
+    background-color: #f2f2f2;
+}
+
+.order_details > li {
+    border-bottom: 1px dotted #dddddd;
+}
+
+.order_details:before,
+.order_details:after {
+    background: -webkit-linear-gradient(transparent 0,transparent 0),-webkit-linear-gradient(135deg,#f2f2f2 33.33%,transparent 33.33%),-webkit-linear-gradient(45deg,#f2f2f2 33.33%,transparent 33.33%)
+}
+
+p.stars a:before,
+p.stars a:hover~a:before,
+p.stars.selected a.active~a:before {
+    color: #6d6d6d;
+}
+
+p.stars.selected a.active:before,
+p.stars:hover a:before,
+p.stars.selected a:not(.active):before,
+p.stars.selected a.active:before {
+    color: #e182a8;
+}
+
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
+    background-color: #e182a8;
+    color: #ffffff;
+}
+
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger:hover {
+    background-color: #c8698f;
+    border-color: #c8698f;
+    color: #ffffff;
+}
+
+.button.loading {
+    color: #e182a8;
+}
+
+.button.loading:hover {
+    background-color: #e182a8;
+}
+
+.button.loading:after {
+    color: #ffffff;
+}
+
+@media screen and ( min-width: 768px ) {
+    .site-header-cart .widget_shopping_cart,
+    .site-header .product_list_widget li .quantity {
+        color: #ffffff;
+    }
+}
+
+.site-branding {
+    margin-bottom: 0px
+}
+.custom-logo {
+    width: 200px;
+}
+.storefront-primary-navigation{
+    background-color: #CD7598;
+}
+.nav-menu > li {
+    transition: 1s;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.nav-menu > li:hover {
+    background-color: #FFB4E6;
+}
+
+/**
+    New Styles
+**/
+
+.storefront-product-categories ul.products li img {
+    filter: grayscale(100%);
+    transition: all .5s ease;
+}
+
+.storefront-product-categories ul.products li img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1, 1.1);
+}
